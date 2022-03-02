@@ -61,6 +61,7 @@ a {
   grid-template-rows: auto;
   grid-gap: 30px;
   margin-top: 50px;
+  margin-bottom: 150px;
 }
 
 .column {
@@ -104,3 +105,29 @@ input[type="submit"] {
   cursor: pointer;
 
 }
+
+/* FOOTER */
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 30px;
+    margin-top: 50px;
+  }
+  
+  .footer-grid .footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 30px;
+  }
+  
+  .footer-grid .footer-3 {
+    display: flex;
+    justify-self: end;
+  }
+  
+  .map-img {
+      margin-bottom: 100px;
+  }
