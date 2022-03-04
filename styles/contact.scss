@@ -102,12 +102,18 @@
     font-size: 16px;
     padding: 15px 20px;
     cursor: pointer;
+    
   
+  }
+
+  .map-img {
+    margin-bottom: 100px;
   }
   
   /* FOOTER */
   
-  .footer-grid {
+  
+   .footer-grid {
     display: grid;
     grid-template-columns: 3fr 1fr 1fr;
     grid-template-rows: 1fr;
